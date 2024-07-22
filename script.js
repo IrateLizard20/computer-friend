@@ -27,7 +27,7 @@ function setName() {
   nameInput.value = "";
 }
 
-inputButton.addEventListener('click',setName);
+inputButton.addEventListener('click', setName);
 
 //Background Image
 

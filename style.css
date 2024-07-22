@@ -9,6 +9,20 @@ body{
     background-color: white;
     cursor: default;
 }
+.back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
 #name{
     user-select: none;
 }

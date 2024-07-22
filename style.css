@@ -19,10 +19,6 @@ body{
     align-items: center;
     justify-content: center;
 }
-a{
-    text-decoration: none;
-    color: black;
-}
 #name{
     user-select: none;
 }
@@ -135,6 +131,10 @@ img{
     font-size: 15px;
     padding-block: 2px;
     padding-inline: 5px;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 .input:active{
     border-style: inset;

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Security-Policy" content="script-src 'self'" />
+        <title>test</title>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+    </head>
+    <body id="body">
+        <div>
+            <h1 id="name">Name:</h1>
+            <input type="text" id="textbox"><br><br>
+            <label class="input">
+                Name Your Friend!
+                <input type="button" id="button1" class="button">
+            </label>
+        </div>
+        <div class="background">
+            <label class="input">
+                Reset Background!
+                <input type="button" id="button2" class="button">
+            </label>
+            <label class="input">
+                Change Background!
+                <input type="file" id="img">
+            </label>
+        </div>
+        <div class="slider">
+            <input type="range" id="input" step="1" min="-5" max="5">
+        </div>
+        <div class="modes" id="mode-change">
+            <label id="modes">
+                <input type="radio" class="checkbox" id="mode1" value="1" name="mode" checked="checked">
+                <span id="modes">
+                    Move Mode
+                </span>
+            </label>
+            <a></a>
+            <label id="modes">
+                <input type="radio" class="checkbox" id="mode2" value="2" name="mode">
+                <span id="modes">
+                    Pet Mode
+                </span>
+            </label>
+        </div>
+        <div class="output">
+            <h1 id="output">0 Happiness</h1>
+            <h2 id="mode">Move Mode</h2>
+        </div>
+        <div class="container">
+            <div id="background">
+            </div>
+            <div id="mydiv">
+                <img id="face" src="faces/face6.png">
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript" src="script.js"></script>
+</html>

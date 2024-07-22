@@ -132,10 +132,6 @@ img{
     padding-block: 2px;
     padding-inline: 5px;
 }
-a{
-    text-decoration: none;
-    color: black;
-}
 .input:active{
     border-style: inset;
     background-color: #bfbfbf;

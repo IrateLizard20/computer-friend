@@ -1,3 +1,13 @@
+//Return to Main Page
+
+var backButton = document.getElementById('back');
+
+function goBack() {
+  window.open("/website","_self")
+}
+
+backButton.addEventListener('click', goBack);
+
 //Slider to Face
 
 var imageNumber = 0;
